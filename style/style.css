@@ -1,0 +1,183 @@
+body
+{
+   background-color: black;
+   color: whitesmoke;
+   font-size: 28px;
+   font-family: 'Inconsolata', monospace;
+   font-weight: 700;
+}
+#pojemnik
+{
+   width: 1000px;
+   margin-left: auto;
+   margin-right: auto;
+   
+}
+#welcomeScreen
+{
+   width: 980px;
+   text-align: center;
+   margin-top: 50px;
+   margin-bottom: 50px;
+   padding: 10px;
+}
+#languageChoose
+{
+   width: 1000px;
+   text-align: center;
+   margin-top: 20px;
+   margin-bottom: 20px;
+   padding: 10px;
+   
+}
+#polish
+{
+   float: left;
+   width: 460px;
+   text-align: center;
+   display: block;
+   padding: 20px;
+}
+#polish:hover
+{
+   -webkit-box-shadow: 0px 0px 5px 5px rgba(245,182,37,1);
+   -moz-box-shadow: 0px 0px 5px 5px rgba(245,182,37,1);
+   box-shadow: 0px 0px 5px 5px rgba(245,182,37,1);
+   border-radius: 25px;
+}
+#english
+{
+   float: left;
+   width: 460px;
+   text-align: center;
+   padding: 20px;
+}
+#english:hover
+{
+   -webkit-box-shadow: 0px 0px 5px 5px rgba(245,182,37,1);
+   -moz-box-shadow: 0px 0px 5px 5px rgba(245,182,37,1);
+   box-shadow: 0px 0px 5px 5px rgba(245,182,37,1);
+   border-radius: 25px;
+   cursor: pointer;
+   color: #f5b625;
+}
+#chooseDifficulty
+{
+   width: 980px;
+   text-align: center;
+   margin-top: 50px;
+   margin-bottom: 50px;
+   padding: 10px;
+}
+.difficulty
+{
+   font-size: 24px;
+   text-justify: auto;
+   text-align: center;
+   width: 300px;
+   padding: 12.5px;
+   float: left;
+   margin-left: auto;
+   margin-right: auto;
+   margin-top: 50px;
+}
+.difficulty > ul > li
+{padding: 15px;
+}
+.difficulty:hover
+{
+   -webkit-box-shadow: 0px 0px 5px 5px rgba(245,182,37,1);
+   -moz-box-shadow: 0px 0px 5px 5px rgba(245,182,37,1);
+   box-shadow: 0px 0px 5px 5px rgba(245,182,37,1);
+   border-radius: 25px;
+   cursor: pointer;
+   color: #f5b625;
+   
+}
+#timer
+{
+   font-size: 28px;
+   text-justify: auto;
+   width: 300px;
+   padding-left: 12.5px;
+   margin-top: 10px;
+   
+}
+a
+{
+   color: inherit;
+   text-decoration: none;
+}
+a:hover
+{
+   cursor: pointer;
+   color: #f5b625 !important;
+   text-decoration: none;
+   
+}
+
+
+
+
+
+#plansza
+{
+   width: 900px;
+   margin-top: 50px;
+   margin-bottom: 50px;
+   text-align: center;
+   font-size: 48px;
+   min-height: 60px;
+   /*
+   text-transform: uppercase;
+   ZMIANA WIELKOŚCI LITER
+   */
+}
+#szubienica
+{
+   float: left;
+   width: 450px;
+   text-align: center;
+   min-height: 280px;
+   
+}
+#alfabet
+{
+   float: left;
+   width: 450px;
+   text-align: center;
+   min-height: 280px;
+}
+.litera
+{
+   width 30px;
+   height: 30px;
+   text-align: center;
+   padding: 5px;
+   margin: 5px;
+   border: 3px solid gray;
+   float: left;
+   cursor: pointer;
+   border-radius: 15px;
+   min-width: 30px;
+}
+.litera:hover
+{
+   /*background-color: #222222;
+   color: white;*/
+   background-color: #f5b625;
+   color: white;
+   border: 3px solid white;
+}
+.reset
+{
+   color: green;
+   cursor: pointer;
+   font-size: 48px;
+}
+.reset:hover
+{
+   color: #f5b625;
+   cursor: pointer;
+   font-size: 48px;
+}
