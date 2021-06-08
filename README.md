@@ -7,14 +7,6 @@
    1. Stworzenie w pełni funkcjonalnej gry w języku polskim oraz angielskim.
    2. Stworzenie kilku poziomów trudności mających realny wpływ na rozgrywkę.
 
-### Funkcjonalności:
-   1. Rejestracja nowych użytkowników.
-   2. Logowanie do kont użytkowników.
-   3. Edycja informacji dotyczących użytkowników.
-   4. Wirtualny koszyk przetrzymujący informacje o obecnym zamówieniu.
-   5. Funkcjonalności CRUD.
-   6. Zarządzanie zasobami sklepu z poziomu aplikacji.
-
 ### Wykorzystane technologie:
 * HTML
 * JavaScript
@@ -47,31 +39,24 @@
 
            Screen przedstawiający ekran wyboru poziomu trudności w języku polskim
   
-  <p>Aktualnie gra posiada trzy poziomy trudności: <br>
-  <ul>
-    <li>
-    Łatwy: <br>
-    - Gracz ma 12 szans na pomyłkę przed przegraną <br>
-    - Hasła w puli są krótkie oraz popularne<br>
-    - Brak ograniczeń czasowych w rozgrywce<br>
-    </li>
-  
-    <li>
-    Normalny: <br>
-    - Gracz ma 9 szans na pomyłkę przed przegraną <br>
-    - Hasła w puli są dłuższe<br>
-    - Brak ograniczeń czasowych w rozgrywce<br>
-    </li>
+  Aktualnie gra posiada trzy poziomy trudności: 
+ 
+    Łatwy: 
+    - Gracz ma 12 szans na pomyłkę przed przegraną 
+    - Hasła w puli są krótkie oraz popularne
+    - Brak ograniczeń czasowych w rozgrywce
     
-    <li>
-    Trudny: <br>
-    - Gracz ma 6 szans na pomyłkę przed przegraną <br>
-    - Hasła w puli są dłuższe oraz mało popularne<br>
-    - Ograniczenie czasowe 3 minut<br>
-    </li>
+    Normalny: 
+    - Gracz ma 9 szans na pomyłkę przed przegraną 
+    - Hasła w puli są dłuższe
+    - Brak ograniczeń czasowych w rozgrywce
     
-  </ul>
-  </p>
+    Trudny: 
+    - Gracz ma 6 szans na pomyłkę przed przegraną 
+    - Hasła w puli są dłuższe oraz mało popularne
+    - Ograniczenie czasowe 3 minut
+    
+
   
 ![alt text](https://github.com/Iwanczyk/hangman/blob/main/img/menuPL2.PNG "Ekran wyboru poziomu trudności")
   
@@ -131,40 +116,34 @@
 
 ![alt text](https://github.com/Iwanczyk/hangman/blob/main/img/indexEN.PNG "Ekran główny")
 
-            Screen przedstawiający ekran główny aplikacji
+         Screen przedstawiający ekran główny aplikacji
 	   
-   <p>Wybór pozwala dostosować język interfejsu, alfabet oraz pulę haseł w grze.
-  </p>
+   <p> Wybór pozwala dostosować język interfejsu, alfabet oraz pulę haseł w grze.</p>
+  
   
 ![alt text](https://github.com/Iwanczyk/hangman/blob/main/img/menuEN1.PNG "Ekran główny")
 
            Screen przedstawiający ekran wyboru poziomu trudności w języku polskim
   
-  <p>Aktualnie gra posiada trzy poziomy trudności: <br>
-  <ul>
-    <li>
-    Łatwy: <br>
-    - Gracz ma 12 szans na pomyłkę przed przegraną <br>
-    - Hasła w puli są krótkie oraz popularne<br>
-    - Brak ograniczeń czasowych w rozgrywce<br>
-    </li>
+Aktualnie gra posiada trzy poziomy trudności: 
+
+    Łatwy:
+    - Gracz ma 12 szans na pomyłkę przed przegraną
+    - Hasła w puli są krótkie oraz popularne
+    - Brak ograniczeń czasowych w rozgrywce
+
   
-    <li>
-    Normalny: <br>
-    - Gracz ma 9 szans na pomyłkę przed przegraną <br>
-    - Hasła w puli są dłuższe<br>
-    - Brak ograniczeń czasowych w rozgrywce<br>
-    </li>
     
-    <li>
-    Trudny: <br>
-    - Gracz ma 6 szans na pomyłkę przed przegraną <br>
-    - Hasła w puli są dłuższe oraz mało popularne<br>
-    - Ograniczenie czasowe 3 minut<br>
-    </li>
+    Normalny: 
+    - Gracz ma 9 szans na pomyłkę przed przegraną 
+    - Hasła w puli są dłuższe
+    - Brak ograniczeń czasowych w rozgrywce
     
-  </ul>
-  </p>
+    Trudny: 
+    - Gracz ma 6 szans na pomyłkę przed przegraną 
+    - Hasła w puli są dłuższe oraz mało popularne
+    - Ograniczenie czasowe 3 minut
+
   
 ![alt text](https://github.com/Iwanczyk/hangman/blob/main/img/menuEN2.PNG "Ekran wyboru poziomu trudności")
   
